@@ -6,13 +6,17 @@
 
 ## AI Dev Workflow Stack
 
-Three tools. One coherent stack. Each solves a distinct problem that shows up when you build seriously with AI.
+Four tools. One coherent stack. Each solves a distinct problem that shows up when you build seriously with AI.
 
 | Tool | What it does | Install |
 |------|-------------|---------|
 | **[AgentSpec](https://github.com/Ozperium/agentspec)** | Test AI agent behavior — catch regressions before production | `npm i -g @ozperium/agentspec` |
 | **[AICostTracker](https://github.com/Ozperium/aicost-tracker)** | Track token usage and costs across projects — one-line integration | `npm i -g @ozperium/aicost-tracker` |
 | **[quota](https://github.com/Ozperium/quota)** | Monitor AI rate limits — know what's left before it stops you | `npm i -g @ozperium/quota` |
+| **[Stoke][stoke]** | Agent safety proxy | [Install][stoke-install] |
+
+[stoke]: https://github.com/Ozperium/stoke
+[stoke-install]: https://stokegate.com/install
 
 ---
 
