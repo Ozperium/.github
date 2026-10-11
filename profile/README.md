@@ -48,7 +48,7 @@ import { track } from '@ozperium/aicost-tracker';
 const openai = track(new OpenAI());  // all calls logged automatically
 ```
 
-→ [GitHub](https://github.com/Ozperium/aicost-tracker) · [npm](https://www.npmjs.com/package/@ozperium/aicost-tracker)
+→ [GitHub](https://github.com/Ozperium/aicost-tracker) · [npm](https://www.npmjs.com/package/@ozperium/aicost-tracker) · [Build notes](https://dev.to/pawfromoz/stop-manually-logging-your-ai-api-calls-one-line-auto-logging-for-openai-and-anthropic-1b5m)
 
 ---
 
