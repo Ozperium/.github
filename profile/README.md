@@ -69,7 +69,7 @@ quota
   Codex         ███░░░░░░░░░░░  3 of 40 reqs    reset in 4h 12m
 ```
 
-→ [GitHub](https://github.com/Ozperium/quota) · [npm](https://www.npmjs.com/package/@ozperium/quota)
+→ [GitHub](https://github.com/Ozperium/quota) · [npm](https://www.npmjs.com/package/@ozperium/quota) · [Build notes](https://dev.to/pawfromoz/i-built-a-terminal-tool-to-see-your-ai-coding-limits-before-they-stop-you-3a93)
 
 ---
 
