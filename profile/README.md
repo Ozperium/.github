@@ -18,6 +18,14 @@ Four tools. One coherent stack. Each solves a distinct problem that shows up whe
 [stoke]: https://github.com/Ozperium/stoke
 [stoke-install]: https://stokegate.com/install
 
+### Choose a starting point
+
+- **Need a regression gate for an agent?** Start with [AgentSpec](https://github.com/Ozperium/agentspec).
+- **Need to understand API spend?** Start with [AICostTracker](https://github.com/Ozperium/aicost-tracker).
+- **Need to see subscription limits before they interrupt work?** Start with [quota](https://github.com/Ozperium/quota).
+- **Need to enforce a budget or routing policy at an agent gateway?** Start with
+  [Stoke](https://github.com/Ozperium/stoke).
+
 ---
 
 ## AgentSpec
