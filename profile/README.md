@@ -37,7 +37,8 @@ AI agents are non-deterministic. When you change a prompt, swap a model, or upda
 
 ```bash
 npm install -g @ozperium/agentspec
-agentspec run --dir tests
+agentspec init
+agentspec run --mock  # labeled demo; configure a real agent next
 ```
 
 → [agentspec.dev](https://agentspec.dev) · [GitHub](https://github.com/Ozperium/agentspec) · [npm](https://www.npmjs.com/package/@ozperium/agentspec) · [Build notes](https://dev.to/pawfromoz/testing-ai-agents-with-agentspec-jest-for-non-deterministic-behavior-55kg)
