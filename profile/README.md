@@ -52,9 +52,15 @@ agentspec run --mock  # labeled demo; configure a real agent next
 
 Know exactly what you're spending on AI APIs. One line of code auto-logs every OpenAI and Anthropic call:
 
+```bash
+npm install openai @ozperium/aicost-tracker
+```
+
 ```typescript
+import OpenAI from 'openai';
 import { track } from '@ozperium/aicost-tracker';
-const openai = track(new OpenAI());  // all calls logged automatically
+
+const openai = track(new OpenAI(), { project: 'myapp' });
 ```
 
 → [GitHub](https://github.com/Ozperium/aicost-tracker) · [npm](https://www.npmjs.com/package/@ozperium/aicost-tracker) · [Build notes](https://dev.to/pawfromoz/stop-manually-logging-your-ai-api-calls-one-line-auto-logging-for-openai-and-anthropic-1b5m)
