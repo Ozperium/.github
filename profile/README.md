@@ -92,8 +92,10 @@ quota
 
 A local-first Rust proxy that puts hard budget caps, rate limits, loop detection, and routing in front of AI agents.
 
+Install the latest stable release:
+
 ```bash
-curl -sSf https://stokegate.com/install | sh -s -- --version nightly
+curl -sSf https://stokegate.com/install | sh
 ```
 
 → [GitHub](https://github.com/Ozperium/stoke) · [stokegate.com](https://stokegate.com)
