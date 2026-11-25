@@ -10,7 +10,7 @@ Four tools. One coherent stack. Each solves a distinct problem that shows up whe
 
 | Tool | What it does | Install |
 |------|-------------|---------|
-| **[AgentSpec](https://github.com/Ozperium/agentspec)** | Test AI agent behavior — catch regressions before production | `npm i -g @ozperium/agentspec` |
+| **[AgentSpec](https://github.com/Ozperium/agentspec)** | Test AI agent behavior — catch regressions before production | `npm install --save-dev @ozperium/agentspec` |
 | **[AICostTracker](https://github.com/Ozperium/aicost-tracker)** | Track token usage and costs across projects — one-line integration | `npm i -g @ozperium/aicost-tracker` |
 | **[quota](https://github.com/Ozperium/quota)** | Monitor AI rate limits — know what's left before it stops you | `npm i -g @ozperium/quota` |
 | **[Stoke][stoke]** | Agent safety proxy | [Install][stoke-install] |
@@ -35,10 +35,12 @@ Four tools. One coherent stack. Each solves a distinct problem that shows up whe
 
 AI agents are non-deterministic. When you change a prompt, swap a model, or update a tool, behavior shifts in ways you can't predict. AgentSpec lets you write tests that catch those shifts before they reach production.
 
+From your npm project:
+
 ```bash
-npm install -g @ozperium/agentspec
-agentspec init
-agentspec run --mock  # labeled demo; configure a real agent next
+npm install --save-dev @ozperium/agentspec
+npx agentspec init
+npx agentspec run --mock  # labeled demo; configure a real agent next
 ```
 
 → [Quick start](https://github.com/Ozperium/agentspec#quick-start) · [GitHub](https://github.com/Ozperium/agentspec) · [npm](https://www.npmjs.com/package/@ozperium/agentspec) · [Build notes](https://dev.to/pawfromoz/testing-ai-agents-with-agentspec-jest-for-non-deterministic-behavior-55kg)
